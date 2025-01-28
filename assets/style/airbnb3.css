@@ -70,3 +70,17 @@ main {
     width: 150px; 
     height: 150px;
 }
+
+.bi-box-arrow-up::before {
+    content: "\F1C6";
+    font-family: "Feather";
+    font-size: 1rem;
+    color: #696969;
+}
+
+.bi-heart::before {
+    content: "\F417";
+    font-family: "Feather";
+    font-size: 1rem;
+    color: #696969;
+}

@@ -1,0 +1,15 @@
+body {
+    margin: 0 4em;
+}
+
+.logo {
+    height: 40px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}    

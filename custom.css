@@ -13,3 +13,31 @@ body {
 .dropdown-toggle::after {
     display: none;
 }    
+
+.h6 {
+    margin-bottom: 0;
+    font-size: 0.8rem;
+}
+
+.bi-globe {
+    font-size: smaller;
+}
+
+.bi-list {
+    font-size: larger;
+}
+
+.bi-person-circle {
+    color: var(--bs-nav-link-color);
+    font-size: x-large;
+}
+
+#sectionOne {
+    margin-left: .8rem;
+    margin-top: 2rem;
+}
+
+.bi-plus-circle-fill {
+    font-size: x-large;
+    color: crimson;
+}

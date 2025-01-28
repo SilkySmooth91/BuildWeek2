@@ -1,50 +1,19 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
-.bi-globe::before {
-    content: "\F3EE";
-    font-family: "Feather";
-    font-size: 1rem;
+header {
+    margin: 0 4em;
+}
+.logo {
+    height: 40px;
 }
 
-.bi-person-circle::before{
-    content: "\F4D7";
-    font-family: "Feather";
-    font-size: 1.4rem;
-    color: #696969;
-    padding-top: 0.2rem;
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end;
 }
 
-@media screen and (max-width: 992px) {
-    #navbarSupportedContent {
-        margin-right: 0 !important;
-    }
-    .navbar-brand {
-        margin-left: 0 !important;
-    }
-}
-
-#navbarSupportedContent {
-    margin-right: 4rem;
-}
-
-#navbarSupportedContent a {
-    color: #000;
-    text-decoration: none;
-    font-size: small;
-}
-
-.dropdown-menu[data-bs-popper] {
-    left: -125%;
-}
-
-.navbar-brand {
-    margin-left: 4rem;
-}
-
-.navbar-brand > img {
-    max-width: 6.5rem;
-    max-height: auto;
-}
+.dropdown-toggle::after {
+    display: none;
+}    
 
 main {
     width: 60%;

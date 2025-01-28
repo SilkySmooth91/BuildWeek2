@@ -10,35 +10,64 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid d-flex justify-content-between">
-              <a class="navbar-brand" href="#">
-                <img src="assets/logo-pink.png" alt="logo">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse d-flex justify-content-end gap-4" id="navbarSupportedContent">
-                <div class="d-flex align-items-center gap-4">
-                  <a href="#">Become a host</a>
-                  <i class="bi bi-globe"></i>
-                </div>
-                <div>
-                    <div class="dropdown">
-                        <button class="btn d-flex align-items-center gap-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="bi bi-list"></i>
-                            <i class="bi bi-person-circle"></i>
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </div>
-                </div>
-              </div>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="assets/logo-pink.png" class="img-fluid logo" alt="logo-pink"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Become a host</a>
+              </li>
+              <li class="nav-item">
+                <i class="nav-link active bi-globe" aria-current="page" href="#"></i>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle userDrop" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="User menu">
+                    <i class="bi bi-list"></i>
+                    <i class="bi bi-person-circle"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-lg-end">
+                    <li class="d-flex align-items-center">
+                        <i class="bi bi-person-check-fill mx-2"></i>
+                        <div class="avatar-menu-header">
+                            <button class="dropdown-item" type="button">User</button>
+                        </div>
+                    </li> 
+                    <li><hr class="dropdown-divider"></li>
+                    <li class="d-flex align-items-center">
+                        <i class="bi bi-person-gear mx-2"></i>
+                        <div class="avatar-menu-header">
+                            <button class="dropdown-item" type="button">Profile</button>
+                        </div>
+                    </li>  
+                    <li class="d-flex align-items-center"> 
+                        <i class="bi bi-substack mx-2"></i>
+                        <div class="avatar-menu-header">
+                            <button class="dropdown-item" type="button">Subscription</button> 
+                        </div>
+                    </li>
+                    <li class="d-flex align-items-center"> 
+                        <i class="bi bi-gear-wide mx-2"></i>
+                        <div class="avatar-menu-header">
+                            <button class="dropdown-item" type="button">Settings</button> 
+                        </div>
+                    </li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li class="d-flex align-items-center"> 
+                        <i class="bi bi-person-slash mx-2"></i>
+                        <div class="avatar-menu-header">
+                            <button class="dropdown-item" type="button">Sign Out</button> 
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     
     <main>

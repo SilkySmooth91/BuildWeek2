@@ -62,3 +62,11 @@ main {
 #title p {
     font-size: 0.8rem;
 }
+.Images :first-child img {
+    width: 400px; 
+    height: 300px;
+}
+.Images :nth-child(2) img {
+    width: 150px; 
+    height: 150px;
+}

@@ -10,35 +10,64 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid d-flex justify-content-between">
-              <a class="navbar-brand" href="#">
-                <img src="assets/logo-pink.png" alt="logo">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse d-flex justify-content-end gap-4" id="navbarSupportedContent">
-                <div class="d-flex align-items-center gap-4">
-                  <a href="#">Become a host</a>
-                  <i class="bi bi-globe"></i>
-                </div>
-                <div>
-                    <div class="dropdown">
-                        <button class="btn d-flex align-items-center gap-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="bi bi-list"></i>
-                            <i class="bi bi-person-circle"></i>
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </div>
-                </div>
-              </div>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="assets/logo-pink.png" class="img-fluid logo" alt="logo-pink"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Become a host</a>
+              </li>
+              <li class="nav-item">
+                <i class="nav-link active bi-globe" aria-current="page" href="#"></i>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle userDrop" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="User menu">
+                    <i class="bi bi-list"></i>
+                    <i class="bi bi-person-circle"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-lg-end">
+                    <li class="d-flex align-items-center">
+                        <i class="bi bi-person-check-fill mx-2"></i>
+                        <div class="avatar-menu-header">
+                            <button class="dropdown-item" type="button">User</button>
+                        </div>
+                    </li> 
+                    <li><hr class="dropdown-divider"></li>
+                    <li class="d-flex align-items-center">
+                        <i class="bi bi-person-gear mx-2"></i>
+                        <div class="avatar-menu-header">
+                            <button class="dropdown-item" type="button">Profile</button>
+                        </div>
+                    </li>  
+                    <li class="d-flex align-items-center"> 
+                        <i class="bi bi-substack mx-2"></i>
+                        <div class="avatar-menu-header">
+                            <button class="dropdown-item" type="button">Subscription</button> 
+                        </div>
+                    </li>
+                    <li class="d-flex align-items-center"> 
+                        <i class="bi bi-gear-wide mx-2"></i>
+                        <div class="avatar-menu-header">
+                            <button class="dropdown-item" type="button">Settings</button> 
+                        </div>
+                    </li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li class="d-flex align-items-center"> 
+                        <i class="bi bi-person-slash mx-2"></i>
+                        <div class="avatar-menu-header">
+                            <button class="dropdown-item" type="button">Sign Out</button> 
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     
     <main>
@@ -47,14 +76,17 @@
                 <div>
                     <h1 class="fs-2 fw-bold">Blarmor Home</h1>
                 </div>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between mb-3">
                     <div class="d-flex">
-                        <p>4.6 ratings</p>
+                        <p class="m-0">4.6 ratings</p>
                         <span></span>
-                        <p>Inverness</p>
+                        <p class="m-0">Inverness</p>
                     </div>
-                    <div>
-                        icons
+                    <div class="d-flex align-items-center gap-2">
+                      <i class="bi bi-box-arrow-up"></i>
+                      <p class="m-0">Share</p>
+                      <i class="bi bi-heart"></i>
+                      <p class="m-0">Save</p>
                     </div>
                 </div>
             </div>
@@ -71,7 +103,60 @@
             </div>
         </section>
 
-        
+        <section id="description">
+          <div>
+            <h2 class="mt-5 mb-3 fs-4 fw-bold">House - Host: Erica</h2>
+            <p>3 rooms - Perfect place to visit the Loch Ness and go looking for Nessie.</p>
+            <a href="#"> show host details</a>
+          </div>
+
+          <div class="d-flex align-items-center mb-4">
+            <div class="py-2">
+              <i class="bi bi-house-door"></i>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <p class="fw-bold">House</p>
+              <p class="text-secondary">You will have the whole premise for you</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center mb-4">
+            <div class="py-2">
+              <i class="bi bi-stars"></i>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <p class="fw-bold">Advanced Cleaning Methods</p>
+              <p class="text-secondary">The host is committing to our 5-steps cleaning process</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center mb-4">
+            <div class="py-2">
+              <i class="bi bi-geo-alt"></i>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <p class="fw-bold">Inverness</p>
+              <p class="text-secondary">5 Kilmore Rd</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center mb-4">
+            <div class="py-2">
+              <i class="bi bi-calendar3"></i>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <p class="fw-bold">Cancellation Terms and Fees</p>
+              <p class="text-secondary">Add your travel dates to know details about cancellation fees and terms</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center mb-4">
+            <div class="py-2">
+              <i class="bi bi-book"></i>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <p class="fw-bold">Rules Of The House</p>
+              <p class="text-secondary">It's forbidden to host parties, bring animals and smoke</p>
+            </div>
+          </div>
+          
+        </section>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

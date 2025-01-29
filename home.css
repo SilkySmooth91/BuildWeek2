@@ -1,0 +1,19 @@
+.logo{
+    width: 5em;
+}
+.navbar{
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+nav, nav ul li a, span{
+    color: white !important;
+}
+
+#btnAccount{
+    border-radius: 50em;
+    padding: 0;
+    width: 3em;
+}
+
+  

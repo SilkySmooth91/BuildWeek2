@@ -14,10 +14,10 @@
 .logo{
     width: 5em;
 }
-.navbar{
+/*.navbar{
     padding-left: 5em;
     padding-right: 5em;
-}
+}*/
 
 nav, nav ul li a, span{
     color: white !important;
@@ -27,4 +27,28 @@ nav, nav ul li a, span{
     border-radius: 50em;
     padding: 0;
     width: 3em;
+}
+
+#searchBar {
+    padding-top: 1.5em;
+}
+
+#jumbotron{
+    height: 70vh;
+    background-image: url(assets/home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+h1{
+    font-size: 5em;
+    line-height: 0.9;
+}
+
+.btnJumbotron{
+    margin-top: 1em;
 }

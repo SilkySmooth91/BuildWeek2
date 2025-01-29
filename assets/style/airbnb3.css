@@ -1,5 +1,13 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
 header {
     margin: 0 4em;
 }
@@ -16,7 +24,7 @@ header {
 }    
 
 main {
-    width: 60%;
+    width: 65%;
     margin: auto;
 }
 
@@ -42,14 +50,63 @@ main {
 
 .bi-box-arrow-up::before {
     content: "\F1C6";
-    font-family: "Feather";
     font-size: 1rem;
     color: #696969;
 }
 
 .bi-heart::before {
     content: "\F417";
-    font-family: "Feather";
     font-size: 1rem;
     color: #696969;
 }
+
+#description > div > a {
+    color: #696969;
+    font-size: small;
+    font-weight: bold;
+}
+
+.bi-house-door::before {
+    content: "\F423";
+    font-size: 2rem;
+    color: #000000;
+    font-weight: bold !important;
+}
+
+.bi-stars::before {
+    content: "\F589";
+    font-size: 2rem;
+    color: #000000;
+    font-weight: bold !important;
+}
+
+.bi-geo-alt::before {
+    content: "\F3E8";
+    font-size: 2rem;
+    color: #000000;
+    font-weight: bold !important;
+}
+
+.bi-calendar3::before {
+    content: "\F214";
+    font-size: 2rem;
+    color: #000000;
+    font-weight: bold !important;
+}
+
+.bi-book::before {
+    content: "\F194";
+    font-size: 2rem;
+    color: #000000;
+    font-weight: bold !important;
+}
+
+#description > div.d-flex.align-items-center {
+    margin-top: 4rem;
+    gap: 2rem;
+}
+
+#description div.d-flex.align-items-center.mb-4 > div.d-flex.flex-column.gap-2 > p:last-of-type {
+    font-size: small;
+}
+

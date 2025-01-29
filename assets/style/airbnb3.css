@@ -110,3 +110,9 @@ main {
     font-size: small;
 }
 
+.profile > img {
+    width: 50px;
+}
+.recensioni {
+   font-size: smaller;
+}

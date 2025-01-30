@@ -56,18 +56,44 @@
             <span class="navbar-toggler-icon c"></span>
         </button>
     </nav>
-
-
-
-
-    <div id="searchBar"></div>
-
-    <div id="hero">
+    <div class="search-bar container-fluid ">
         <div>
-            <h1>Go <br>Near</h1>
-            <button></button>
+          <label>Location</label>
+          <input type="text" placeholder="Where are you going?">
         </div>
-    </div>
+        <div>
+          <label>Check-in</label>
+          <input type="text" id="checkin" placeholder="gg/mm/aaaa">
+          
+        </div>
+        <div>
+          <label>Check-out</label>
+          <input type="text" id="checkout" placeholder="gg/mm/aaaa">
+          
+        </div>
+        <div>
+          <label>Guests</label>
+          <input type="text" placeholder="Add guests">
+        </div>
+        <button class="search-button ms-1">
+          <img src="https://cdn-icons-png.flaticon.com/512/149/149852.png" alt="search">
+        </button>
+      </div>
+
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          const checkinInput = document.getElementById("checkin");
+          const checkoutInput = document.getElementById("checkout");
+    
+          checkinInput.addEventListener("focus", function() {
+            checkinInput.type = "date";
+          });
+    
+          checkoutInput.addEventListener("focus", function() {
+            checkoutInput.type = "date";
+          });
+        });
+      </script>
 
 
 

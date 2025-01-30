@@ -19,6 +19,10 @@ body {
     font-size: 0.8rem;
 }
 
+.fw-light {
+    font-weight: 383 !important;
+}
+
 .bi-globe {
     font-size: smaller;
 }
@@ -59,4 +63,26 @@ body {
 .bi-star-fill {
     font-size: x-small;
     color: crimson;
+}
+
+#sectionThree {
+    margin-top: 8em;
+}
+
+@media (min-width: 420px) AND (max-width: 767px) {
+    .col-6 {
+        margin-bottom: 1.5em;
+    }
+    .justify-content-between {
+        justify-content: center!important;
+    }
+}
+
+@media (min-width: 768px) AND (max-width: 991px) {
+    .justify-content-between {
+        justify-content: center!important;
+    }
+    .col-md-4 {
+        margin-bottom: 1.5em;
+    }
 }

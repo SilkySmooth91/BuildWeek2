@@ -14,10 +14,11 @@
 .logo{
     width: 5em;
 }
-/*.navbar{
-    padding-left: 5em;
-    padding-right: 5em;
-}*/
+
+.navbar{
+    padding-left: 4%;
+    padding-right: 4%;
+}
 
 nav, nav ul li a, span{
     color: white !important;
@@ -28,6 +29,12 @@ nav, nav ul li a, span{
     padding: 0;
     width: 3em;
 }
+
+.navbar-toggler-icon{
+    color: white;
+}
+
+
 
 #searchBar {
     padding-top: 1.5em;

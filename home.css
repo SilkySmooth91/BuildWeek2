@@ -34,14 +34,16 @@ nav, nav ul li a, span{
     color: white;
 }
 
-
-
 #searchBar {
     padding-top: 1.5em;
 }
 
+#hero{
+    margin-bottom: 4em;
+}
+
 #jumbotron{
-    height: 70vh;
+    height: 65vh;
     background-image: url(assets/home.jpg);
     background-size: cover;
     background-position: center;
@@ -58,4 +60,9 @@ h1{
 
 .btnJumbotron{
     margin-top: 1em;
+}
+
+.destinationImg{
+    width: 5em;
+    border-radius: 8px;
 }

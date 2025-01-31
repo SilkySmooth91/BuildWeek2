@@ -39,13 +39,17 @@ main {
 #title p {
     font-size: 0.8rem;
 }
-.Images :first-child img {
-    max-width: 100%; 
-    height: auto;
+
+#photos > div.container > div.row img {
+    height: 33rem;
+    width: 100%;
+    object-fit: cover;
 }
-.Images :nth-child(2) img {
-    max-width: 100%;
-    height: auto;
+
+#photos > div.container > div.row > div.col-12.col-md-6 > div.row > div.col-6 > img {
+    object-fit: cover;
+    height: 16.5rem;
+    width: 100%;
 }
 
 .bi-box-arrow-up::before {

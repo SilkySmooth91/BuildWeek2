@@ -1,4 +1,4 @@
-body {
+#head, #sectionOne, #sectionTwo, #sectionThree {
     margin: 0 4em;
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 #sectionOne {
-    margin-left: .8rem;
+    /*margin-left: .8rem;*/
     margin-top: 2rem;
 }
 
@@ -60,12 +60,16 @@ body {
     object-fit: cover;
 }
 
+.g-3 {
+    --bs-gutter-x: 0rem;
+}
+
 .bi-star-fill {
     font-size: x-small;
     color: crimson;
 }
 
-#sectionThree {
+#sectionThree, #foot {
     margin-top: 8em;
 }
 
@@ -76,6 +80,9 @@ body {
     .justify-content-between {
         justify-content: center!important;
     }
+    .g-3 {
+        --bs-gutter-x: 1rem;
+    }
 }
 
 @media (min-width: 768px) AND (max-width: 991px) {
@@ -85,4 +92,16 @@ body {
     .col-md-4 {
         margin-bottom: 1.5em;
     }
+    .g-3 {
+        --bs-gutter-x: 1rem;
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+.fs-6 {
+    font-size: .9rem !important;
+    cursor: pointer;
 }

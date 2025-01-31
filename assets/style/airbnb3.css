@@ -40,12 +40,12 @@ main {
     font-size: 0.8rem;
 }
 .Images :first-child img {
-    width: 400px; 
-    height: 300px;
+    max-width: 100%; 
+    height: auto;
 }
 .Images :nth-child(2) img {
-    width: 150px; 
-    height: 150px;
+    max-width: 100%;
+    height: auto;
 }
 
 .bi-box-arrow-up::before {

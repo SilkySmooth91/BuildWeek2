@@ -1,9 +1,23 @@
+/*.logo {
+    height: 40px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}   
+*/
+
 .logo{
     width: 5em;
 }
+
 .navbar{
-    padding-left: 5em;
-    padding-right: 5em;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 nav, nav ul li a, span{
@@ -16,4 +30,39 @@ nav, nav ul li a, span{
     width: 3em;
 }
 
-  
+.navbar-toggler-icon{
+    color: white;
+}
+
+#searchBar {
+    padding-top: 1.5em;
+}
+
+#hero{
+    margin-bottom: 4em;
+}
+
+#jumbotron{
+    height: 65vh;
+    background-image: url(assets/home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+h1{
+    font-size: 5em;
+    line-height: 0.9;
+}
+
+.btnJumbotron{
+    margin-top: 1em;
+}
+
+.destinationImg{
+    width: 5em;
+    border-radius: 8px;
+}

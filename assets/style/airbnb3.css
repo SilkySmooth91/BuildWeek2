@@ -24,7 +24,7 @@ header {
 }    
 
 main {
-    width: 65%;
+    width: 70%;
     margin: auto;
 }
 
@@ -46,10 +46,21 @@ main {
     object-fit: cover;
 }
 
-#photos > div.container > div.row > div.col-12.col-md-6 > div.row > div.col-6 > img {
-    object-fit: cover;
-    height: 16.5rem;
-    width: 100%;
+@media screen and (max-width: 400px) {
+    header {
+        width: 90%;
+        margin: auto;
+    }
+    main {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #photos > div.container > div.row img {
+        padding-bottom: 0.3rem;
+    }
 }
 
 .bi-box-arrow-up::before {
@@ -120,6 +131,74 @@ main {
 .recensioni {
    font-size: smaller;
 }
-.stella {
-    width: 10px;
- }
+
+.bi-star-fill::before {
+    content: "\F586";
+    font-size: 0.5rem;
+    color: #ff385c;
+    margin-right: 0.5rem;
+}
+
+.card {
+    max-width: 20rem;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.189);
+}
+
+@media screen and (min-width: 985px) {
+    .card {
+    position: absolute;
+    left: 57%;
+    bottom: 0%;
+    }
+}
+
+.card input {
+    border: none;
+    font-size: 0.7rem;
+    text-align: center;
+    width: 9rem;
+    height: 2.5rem;
+}
+
+.calendario div:first-of-type {
+    border-right: 1px solid black;
+}
+
+#card-footer {
+    border: 1px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.guests {
+    height: 2.5rem;
+    width: 35rem;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+.guests input {
+    height: 2.5rem;
+    width: 15rem;
+    text-align:justify;
+}
+
+
+.card-body > div.mt-2 > a {
+    width: 18rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    background-color: #ff385c;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    padding-top: 0.5rem;
+}
+
+.card-body > div > div.d-flex > p {
+    font-size: small;
+    padding-top: 0.3rem;
+}
+

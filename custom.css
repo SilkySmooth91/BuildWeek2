@@ -1,4 +1,4 @@
-#head, #sectionOne, #sectionTwo, #sectionThree {
+#head, #sectionOne, #sectionTwo, #sectionThree, #subFooter {
     margin: 0 4em;
 }
 
@@ -103,5 +103,35 @@ ul {
 
 .fs-6 {
     font-size: .9rem !important;
-    cursor: pointer;
+}
+
+.border-top {
+    border-top: var(--bs-border-width) var(--bs-border-style) #8c9196 !important;
+}    
+
+@media (max-width: 990px) {
+    .list-group {
+        width: 100%;
+        text-align: center;
+    }
+    #subFooter {
+        flex-direction: column;
+        text-align: center;
+    }
+    .copyright {
+        text-align: center;
+        justify-content: center;
+    }
+    .social-links {
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+    .fs-6 {
+        font-size: 0.8rem !important;
+    }
+    p {
+        margin-bottom: 0rem;
+    }
+
 }

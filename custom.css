@@ -1,4 +1,4 @@
-body {
+#head, #sectionOne, #sectionTwo, #sectionThree, #subFooter {
     margin: 0 4em;
 }
 
@@ -13,3 +13,125 @@ body {
 .dropdown-toggle::after {
     display: none;
 }    
+
+.h6 {
+    margin-bottom: 0;
+    font-size: 0.8rem;
+}
+
+.fw-light {
+    font-weight: 383 !important;
+}
+
+.bi-globe {
+    font-size: smaller;
+}
+
+.bi-list {
+    font-size: larger;
+}
+
+.bi-person-circle {
+    color: var(--bs-nav-link-color);
+    font-size: x-large;
+}
+
+#sectionOne {
+    /*margin-left: .8rem;*/
+    margin-top: 2rem;
+}
+
+.bi-plus-circle-fill {
+    font-size: x-large;
+    color: crimson;
+}
+
+.btn {
+    --bs-btn-font-size: .7rem;
+}
+
+.bg-secondary {
+    background-color: rgb(243 243 243)!important;
+}
+
+.fixed-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.g-3 {
+    --bs-gutter-x: 0rem;
+}
+
+.bi-star-fill {
+    font-size: x-small;
+    color: crimson;
+}
+
+#sectionThree, #foot {
+    margin-top: 8em;
+}
+
+@media (min-width: 420px) AND (max-width: 767px) {
+    .col-6 {
+        margin-bottom: 1.5em;
+    }
+    .justify-content-between {
+        justify-content: center!important;
+    }
+    .g-3 {
+        --bs-gutter-x: 1rem;
+    }
+}
+
+@media (min-width: 768px) AND (max-width: 991px) {
+    .justify-content-between {
+        justify-content: center!important;
+    }
+    .col-md-4 {
+        margin-bottom: 1.5em;
+    }
+    .g-3 {
+        --bs-gutter-x: 1rem;
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+.fs-6 {
+    font-size: .9rem !important;
+}
+
+.border-top {
+    border-top: var(--bs-border-width) var(--bs-border-style) #8c9196 !important;
+}    
+
+@media (max-width: 990px) {
+    .list-group {
+        width: 100%;
+        text-align: center;
+    }
+    #subFooter {
+        flex-direction: column;
+        text-align: center;
+    }
+    .copyright {
+        text-align: center;
+        justify-content: center;
+    }
+    .social-links {
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+    .fs-6 {
+        font-size: 0.8rem !important;
+    }
+    p {
+        margin-bottom: 0rem;
+    }
+
+}

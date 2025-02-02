@@ -58,9 +58,83 @@
         </div>
     </nav>
 
+    <!-- <div class="bg-black">
+        <div class="search-bar d-flex m-0 mx-auto  calendario ">
+            <div class=" conteiner-fluid py-1 px-1 my-0 border-end">
+                <label>Location</label>
+                <input type="text" placeholder="Dove vai?">
+            </div>
+            <div class=" conteiner-fluid py-1 px-1 my-0 border-end">
+                <label>Check-in</label>
+                <input type="text" id="checkin" placeholder="gg/mm/aaaa">
+            </div>
+            <div class="conteiner-fluid py-1 px-1 my-0 border-end">
+                <label>Check-out</label>
+                <input type="text" id="checkout" placeholder="gg/mm/aaaa">
+            </div>
+            <div class="conteiner-fluid py-1 px-1 my-0 border-end">
+                <label>Guests</label>
+                <input type="text" placeholder="Aggiungi ospiti">
+            </div>
+            <div class="ps-2">
+                <button class="search-button ">
+                    <img src="https://cdn-icons-png.flaticon.com/512/149/149852.png" alt="search">
+                </button>
+            </div>
+        </div>
+    </div> -->
+
+
+    
+
 
 
     <div id="hero" class="bg-black">
+        
+        <div class="search-container d-flex flex-wrap">
+            <div class="row gx-2">
+                <div class="col col-location px-3 py-2 border-end">
+                    <label class="text-muted small d-block">Location</label>
+                    <div class="d-flex align-items-center">
+                        <input type="text" class="bg-transparent" id="location" placeholder="Where are you going?">
+                    </div>
+                </div>
+                <div class="col col-date px-3 py-2 border-end">
+                    <label class="text-muted small d-block">Check-in</label>
+                    <div class="d-flex align-items-center">
+                        <input type="date" class="bg-transparent" id="checkin" placeholder="gg/mm/aaaa">
+                    </div>
+                </div>
+                <div class="col col-date px-3 py-2 border-end">
+                    <label class="text-muted small d-block">Check-out</label>
+                    <div class="d-flex align-items-center">
+                        <input type="date" class="bg-transparent" id="checkout" placeholder="gg/mm/aaaa">
+                    </div>
+                </div>
+                <div class="col col-guests px-3 py-2 border-end position-relative">
+                    <label class="text-muted small d-block">Guests</label>
+                    <div class="d-flex align-items-center">
+                        <input type="text" class="bg-transparent" id="guests" placeholder="Add guests">
+                    </div>
+                    <div class="guests-dropdown" id="guestsDropdown" style="display: none;">
+                        <button onclick="setGuests(1)">1 Guest</button>
+                        <button onclick="setGuests(2)">2 Guests</button>
+                        <button onclick="setGuests(3)">3 Guests</button>
+                        <button onclick="setGuests(4)">4+ Guests</button>
+                    </div>
+                </div>
+    
+                <div class="col col-btn align-items-center">
+                    <button class="search-btn" onclick="search()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                          </svg>   
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
         <div id="jumbotron" class="jumbotron-bg py-0 d-flex align-items-center">
             <div class="container-fluid d-flex flex-column align-items-start">
                 <h1 class="fw-bold">Go<br>Near</h1>

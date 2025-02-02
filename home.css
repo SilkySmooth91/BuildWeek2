@@ -1,15 +1,4 @@
-/*.logo {
-    height: 40px;
-}
 
-.navbar-expand-lg .navbar-collapse {
-    justify-content: end;
-}
-
-.dropdown-toggle::after {
-    display: none;
-}   
-*/
 
 .logo{
     width: 5em;
@@ -69,4 +58,18 @@ h1{
 
 #destination{
     margin-bottom: 8em;
+}
+
+.footElems {
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+#foot ul{
+    list-style-type: none;
+}
+
+.subFootElems{
+    padding-left: 2em;
+    padding-right: 2em;
 }

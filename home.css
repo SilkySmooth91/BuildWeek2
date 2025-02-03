@@ -161,6 +161,9 @@ input {
     padding-right: 2em;
 }
 
+.bg-secondary {
+  background-color: rgb(243 243 243)!important;
+}
 
 
 

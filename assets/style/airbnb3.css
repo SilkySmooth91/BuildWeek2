@@ -150,7 +150,7 @@ main {
     .card {
     position: absolute;
     left: 57%;
-    bottom: 0%;
+    bottom: -15%;
     }
 }
 
